@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'NexaThin';
+  src: local('Nexa Thin'), local('Nexa-Thin'), url(https://site-assets.aztecwoods.in/cdn/files/fonts/Nexa/Nexa-Thin.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'NexaLight';
+  src: local('Nexa Light'), local('Nexa-Light'), url(https://site-assets.aztecwoods.in/cdn/files/fonts/Nexa/Nexa-Light.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'NexaRegular';
+  src: local('Nexa Regular'), local('Nexa-Regular'), url(https://site-assets.aztecwoods.in/cdn/files/fonts/Nexa/Nexa-Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'NexaExtraBold';
+  src: local('Nexa Extra Bold'), local('Nexa-Extra-Bold'), url(https://site-assets.aztecwoods.in/cdn/files/fonts/Nexa/Nexa-ExtraBold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'NexaBlack';
+  src: local('Nexa Black'), local('Nexa-Black'), url(https://site-assets.aztecwoods.in/cdn/files/fonts/Nexa/Nexa-Black.woff2) format('woff2');
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.f-nexa-thin{
+  font-family: NexaThin;
+}
+
+.f-nexa-light{
+  font-family: NexaLight;
+}
+
+.f-nexa-regular{
+  font-family: NexaRegular;
+}
+
+.f-nexa-extra-bold{
+  font-family: NexaExtraBold;
+}
+
+.f-nexa-black{
+  font-family: NexaBlack;
+}
