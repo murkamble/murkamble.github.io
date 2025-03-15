@@ -1,0 +1,12 @@
+User-agent: *
+
+# Disallow dynamic routes
+Disallow: /my-portfolio
+Disallow: /projects
+Disallow: /terms&conditions
+
+# Allow specific paths
+# Allow: /
+
+# Specify the sitemap location
+Sitemap: https://murkamble.github.io/sitemap.xml
