@@ -1,9 +1,10 @@
 User-agent: *
 
 # Disallow dynamic routes
+Disallow: /project
 Disallow: /my-portfolio
-Disallow: /projects
-Disallow: /terms&conditions
+Disallow: /terms-&-conditions
+Disallow: /project-bid-process
 
 # Allow specific paths
 # Allow: /
